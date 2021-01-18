@@ -138,8 +138,16 @@ float: left;
 }
 </style>
 <div class="mobilmenu">
+<center>
+<div style=" padding: 10px; background: ; min-width: 30px;  height: 100%; " class="menuik">
 
+<img src="geri.png" height="30" alt="istanbul manzara">
+<div style="font-size: 30px; color: white; font-family: roboto; text-decoration-color:white">
+<p>jdjdjfd</p>
+</div>
+</div>
 
+</center>
 </div>
 <a href="">
 <div class="geridon">Geri dön
@@ -201,7 +209,7 @@ parçalanması sonucu oluşur.Bu hücreler çekirdekli ve renksizdir.Ortalama 1 
 $(document).ready(function(){
  
    $("div.menuik").click(function(){
-     $("div.mobilmenu").fadeIn(500);
+     $("div.mobilmenu").fadeToggle(500);
    });
 }); 
 	  </script>
