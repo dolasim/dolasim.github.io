@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 </style>
 <div class="kard" style="background: #403d3d; padding-top: 10px; padding-bottom: 10px;min-height: 10px;">
-  <p style="color: #ff7357; float: left; margin-top: 0px; margin-bottom: 0px;  ">Reklam - <p style="color: white; margin-top: 0px; font-family: 'Josefin Sans', sans-serif; ">&#160Bodrumkat </p>
+  <p style="color: #ff7357; float: left; margin-top: 0px; margin-bottom: 0px;  font-family: 'Josefin Sans', sans-serif;">Reklam - <p style="color: white; margin-top: 0px; font-family: 'Josefin Sans', sans-serif; ">&#160Bodrumkat </p>
   <span style="float:right,"><p style="color: white; margin-top:0px; margin-bottom: 0px; font-size: 25px; font-family: 'Josefin Sans', sans-serif;">Korku hikayeleri için<a href style="color:#ff7357">&#160Tıkla</a> </p>
  </span>
  <style>
