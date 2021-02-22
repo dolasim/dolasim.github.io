@@ -25,3 +25,12 @@ display: none;
 </div>
 
 </div>
+	  <script>
+$(document).ready(function(){
+   $("div.menuik").click(function(){
+     $("#mobilmenu").fadeToggle(500);
+	
+   });
+}); 
+
+	  </script>
