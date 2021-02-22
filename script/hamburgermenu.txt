@@ -11,7 +11,7 @@ visibility: visible;
 display: none;
 }
 </style>
-<div class="mobilmenu" align="center">
+<div id="mobilmenu" align="center">
 <div style=" padding: 10px; background: ; min-width: 30px;  height: 100%; " class="menuik">
 
 <img src="./arayuzikon/geri.png" height="30" alt="istanbul manzara">
