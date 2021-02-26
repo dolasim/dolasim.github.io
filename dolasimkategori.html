@@ -56,17 +56,7 @@ left: 20px;
 	  z-index: 101;
 	  
 }
-.mobilmenu{
-position: fixed;
-background: #1a1a2e;
-left: 0;
-right: 0;
-top: 0;
-bottom:0 ;
-z-index: 1005;
-visibility: visible;
-display: none;
-}
+
 
 .menuik{   
   
@@ -76,17 +66,7 @@ display: none;
 	color: white;
 	text-decoration: none;	
 }
-.mobilheader{
-visibility: visible;
-height: 50px;
-position: fixed;
-left:0;
-right:0;
-top: 0;
-background-color: #0f3460;
-z-index: 1000;
-padding-left: 2%;
-}
+
 .kard{
 width: 100%;
 background-color: ;
@@ -210,40 +190,10 @@ top: 360;
 }
 
 </style>
-<div class="mobilmenu">
-<center>
-<div style=" padding: 10px; background: ; min-width: 30px;  height: 100%; " class="menuik">
-
-<img src="./arayuzikon/geri.png" height="30" alt="istanbul manzara">
-<div style="font-size: 30px; color: white; font-family: roboto; text-decoration-color:white hei">
-<a href="kalpkategori.html"><p>Kalp</p></a>
-<a href="kankategori.html"><p>Kan</p></a>
-<a href="dolasimkategori.html"><p>Dolaşım</p></a>
-<a href="bagisiklikkategori.html"><p>Bağışıklık</p></a>
-
-</div>
-</div>
-
-</center>
-</div>
-<a href="index.html">
-<div class="geridon">Geri dön
-</div>
-</a>
-<div class="mobilheader" style="padding-left: 0%;">
-<a href="index.html">
-<div style=" padding: 10px; padding-left: 5%; background: ; width: 30px; float: left; height: 30px; z-index: 1001; overflow:hidden" class="menuik">
-<img src="arayuzikon/logo.png" height="30" alt="istanbul manzara">
-</div>
-</a>
-<div style=" padding: 10px; padding-right: 5%;background: ; width: 30px; float: right; height: 30px; z-index: 1001;" class="menuik">
-
-<img src="arayuzikon/menu.png" width="30" alt="istanbul manzara">
-</div>
-</div>
+<div id="ustheader"></div>
 <div class="header">
 <div style="background-color: white; height: 400px; " align="center">
-<div align="center" style=>
+<div align="center" style="overflow:hidden;">
 <img src="kategori/dolasim.png" height="100%" align="center">
 </div>
 <div style="position: absolute; " class="baslikdiv">
@@ -377,7 +327,6 @@ height: 50%;
 	  <script>
 $(document).ready(function(){
   $("#ustheader").load("https://dolasim.github.io/script/ustheader.txt");
-
 }); 
 	  </script>
 

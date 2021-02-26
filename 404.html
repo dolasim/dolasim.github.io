@@ -10,7 +10,7 @@
 .header {
 min-height: 100%;
 background-color: #1a1a2e;
-position: fixed;
+position: absolute;
 padding-left: 5%;
 padding-right: 5%;
 padding-top: 5%;
@@ -150,39 +150,9 @@ width: 90%;
 }
 
 </style>
-<div class="mobilmenu">
-<center>
-<div style=" padding: 10px; background: ; min-width: 30px;  height: 100%; " class="menuik">
-
-<img src="./arayuzikon/geri.png" height="30" alt="istanbul manzara">
-<div style="font-size: 30px; color: white; font-family: roboto; text-decoration-color:white hei">
-<a href="kalpkategori.html"><p>Kalp</p></a>
-<a href="kankategori.html"><p>Kan</p></a>
-<a href="dolasimkategori.html"><p>Dolaşım</p></a>
-<a href="bagisiklikkategori.html"><p>Bağışıklık</p></a>
-
-</div>
-</div>
-
-</center>
-</div>
-<a href="">
-
-</a>
-<div class="mobilheader" style="padding-left: 0%;">
-<a href="index.html">
-<div style=" padding: 10px; padding-left: 5%; background: ; width: 30px; float: left; height: 30px; z-index: 1001;" class="menuik">
-
-<img src="arayuzikon/logo.png" height="30" alt="istanbul manzara">
-</div>
-</a>
-<div style=" padding: 10px; padding-right: 5%;background: ; width: 30px; float: right; height: 30px; z-index: 1001;" class="menuik">
-
-<img src="arayuzikon/menu.png" width="30" alt="carly">
-</div>
-</div>
+<div id="ustheader"></div>
 <div class="header" align="center">
-<div class="gifkutu" >
+<div class="gifkutu" style="overflow: hidden; border-radius: 20px;">
 <img src="https://media.giphy.com/media/YLJLmUKQ2zcbu/source.gif" width="100%" align="center" alt="istanbul manzara">
 </div>
 
@@ -199,10 +169,7 @@ width: 90%;
 	  <script>
 $(document).ready(function(){
   $("#reklam").load("https://dolasim.github.io/reklam.txt");
-   $("div.menuik").click(function(){
-     $("div.mobilmenu").fadeToggle(500);
-	
-   });
+  $("#ustheader").load("https://dolasim.github.io/script/ustheader.txt");
 }); 
 
 	  </script>
