@@ -1,0 +1,7 @@
+<a href="hakkında.html">
+<p style="" class="footertext">Hakkımızda</p>
+</a>
+<a href="gizlilik.html">
+<p class="footertext">Gizlilik politikası</p>
+</a>
+<p style=" text-align: center; color: white;">©2021 Dolsis. Tüm hakları saklıdır.</p>
