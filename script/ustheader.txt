@@ -1,4 +1,4 @@
-<meta name="theme-color" content="16213e">
+<meta name="theme-color" content="#1a1a2e">
 <style type="text/css">
 
 .geridon {
