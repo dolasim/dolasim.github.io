@@ -4,5 +4,6 @@ width: 50%;
 @media screen and (max-width:500px){
 .logoresim{
 width: 70%:
+display: none;
 }
 }
