@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="stylesheet" href="hear.css" type="text/css">
+<meta name="theme-color" content="1a1a2e">
 <title>Bağışıklık Sistemi</title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
@@ -12,6 +13,7 @@
 body{
 font-family: roboto;
 link-color: white;
+overflow-x: hidden;
 }
 a{
 color: white;
@@ -205,6 +207,7 @@ Vücudu hastalığa karşı koruyan sistemdir. Özgül olmayan ve	 özgül (spes
 
 </div>
 </div>
+
 <div class="kard" align="left" style="float: left; margin-top:0px;">
 <p style="margin-top: 0px; color: e94560; font-size:20px;" >MAKALELER</p>
 </div>
@@ -298,13 +301,7 @@ height: 50%;
 }
 </style>
 <div class="footerkard">
-<a href="hakkinda.html">
-<p style="" class="footertext">Hakkımızda</p>
-</a>
-<a href="gizlilik.html">
-<p class="footertext">Gizlilik politikası</p>
-</a>
-<p style=" text-align: center; color: white;">©2021 Dolsis. Tüm hakları saklıdır.</p>
+<div id="footer"></div>
 
 </div>
 </div>
@@ -317,8 +314,8 @@ height: 50%;
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	  <script>
 $(document).ready(function(){
-   $("#ustheader").load("https://dolasim.github.io/script/ustheader.txt");
-
+  $("#ustheader").load("https://dolasim.github.io/script/ustheader.txt");
+  $("#footer").load("https://dolasim.github.io/script/footer.txt");
 }); 
 	  </script>
 
