@@ -1,0 +1,133 @@
+.header {
+min-height: 100%;
+background-color: #1a1a2e;
+position: absolute;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 5%;
+
+      bottom; auto ;
+	  left: 0;
+	  right: 0px;
+	  top: 0px; 
+	  z-index: 100;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+
+body{
+font-family: roboto;
+font-style: white;
+
+
+}
+
+.geridon {
+height: 40px;
+background-color: #e94560;
+float: left;
+width: 100px;
+border-radius: 20px;
+line-height:40px;
+text-align: center;
+font-family: roboto;
+font-size: 20px;
+color: white;
+margin-bottom: 2%;
+}
+
+
+
+.ktu2:hover{   
+    background: #1d3e6e; 
+	color: white;
+	text-decoration: none;	
+}
+.kard{
+width: 88%;
+background-color: #0f3460;
+min-height: 100px;
+z-index: 101;
+border-radius: 20px;
+top: 0px;
+margin-bottom: 0%;
+float: left;
+margin-left: 5%;
+margin-right: 5%;
+padding: 1%;
+margin-bottom: 1%;
+}
+.ovalresim{
+width: 400px;
+min-height: 200px;
+background: red;
+border-radius: 10px;
+float: left;
+}
+
+.kardyazi{
+float: left;
+height: auto;
+background: ;
+padding-left: 2%;
+color: white;
+font-size: 20px;
+max-width: 48%;
+min-width: 10%;
+}
+
+@media screen and (max-width:500px){
+.kardyazi{
+float: right;
+height: auto;
+background:;
+padding: 2%;
+max-width: 96%;
+
+}
+
+
+
+.ktu1{
+width: 90%;
+text-align: left;
+padding-top: 10%;
+top: 0px;
+height: 100%;
+border-radius: 20px;
+
+
+}
+.header{
+width: 90%;
+padding-left: 5%;
+padding-right: 5%;
+
+top:50px;
+padding-top: 25px;
+}
+
+.kard{
+width: 90%;
+height: 100%;
+top: 0px;
+padding: 5%;
+margin-bottom: 2%;
+margin-top: 0;
+margin-left: 0%;
+margin-right: 0%;
+
+}
+.ovalresim{
+width: 100%;
+
+}
+.kardyazi{
+width: ;
+}
+
+}
