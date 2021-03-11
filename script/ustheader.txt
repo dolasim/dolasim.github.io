@@ -1,4 +1,7 @@
 <meta name="theme-color" content="#e94560">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+</style>
 <style type="text/css">
 
 .geridon {
@@ -51,7 +54,7 @@ float: left;
 <div style=" padding: 10px; background: ; min-width: 30px;  height: 100%; " class="menuik">
 
 <img src="./arayuzikon/geri.png" height="30" alt="istanbul manzara">
-<div style="font-size: 30px; color: white; font-family: roboto; text-decoration-color:white hei">
+<div style="font-size: 30px; color: white; font-family: 'Abril Fatface', cursive; text-decoration-color:white hei">
 <a href="kalpkategori.html"><p>Kalp</p></a>
 <a href="kankategori.html"><p>Kan</p></a>
 <a href="dolasimkategori.html"><p>Dolaşım</p></a>
