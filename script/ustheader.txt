@@ -27,7 +27,7 @@ position: fixed;
 left:0;
 right:0;
 top: 0;
-background-color: #1a1a2e;
+background-color: 0f3460;
 z-index: 1000;
 padding-left: 2%;
 }
