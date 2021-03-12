@@ -1,4 +1,4 @@
-<meta name="theme-color" content="#e94560">
+<meta name="theme-color" content="#1a1a2e">
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
@@ -27,8 +27,7 @@ position: fixed;
 left:0;
 right:0;
 top: 0;
-background: rgb(233,69,96);
-background: linear-gradient(90deg, rgba(233,69,96,1) 5%, rgba(9,9,121,1) 76%);
+background-color: #1a1a2e);
 z-index: 1000;
 padding-left: 2%;
 }
