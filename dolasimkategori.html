@@ -5,6 +5,7 @@
 <title>	Dolaşım Sistemi</title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <style type="text/css">
@@ -215,11 +216,14 @@ malesuada. Nulla eu purus lobortis, interdum mauris ut, malesuada felis. Mauris 
 </div>
 
 </div>
-
-<div class="" align="left" style="float: left; margin-top:0px; width: 100%; margin-left: 0%;">
-<p style="margin-top: 0px; color: e94560; font-size:30px; text-align: center; margin: 0px;" >MAKALELER</p>
-</div>
-<a href="bagisiklik.html">
+ <div style="">
+  <div id="container">
+ <div class="butonyer" align="left">
+        <button class="aktif"> MAKALELER</button>
+        <button>EKSTRALAR</button>
+    </div>   
+        <div class="icerik">
+            <a href="bagisiklik.html">
 <div class="kard2">
 <div class="kard2resim" style="margin-left:0px;"><img src="bagisiklikozgulolmayan/3989104.jpg" width="100%"></div>
 <p style="text-align:left; color: e94560; margin-top: 10; font-size: 20px; margin-bottom: 0;">Özgül olmayan bağışıklık</p>
@@ -238,14 +242,74 @@ doğal katil hücreler, interferonlar, iltihaplanmalar ve ateşlenmelerdir.</p>
 <div style="background-color: e94560; height: 30px; line-height: 30px;  color: white; float: left; width: 100%; ">BAŞLA</div>
 </div>
 </a>
-<style type="text/css">
-.kard2{
+        </div>
+        <div class="icerik">
+            <a href="kalptrivia.html">
+<div class="kard2">
+<div class="kard2resim" style="margin-left:0px;"><img src="kalp/kalpkosu.gif" width="100%"></div>
+<p style="text-align:left; color: e94560; margin-top: 10; font-size: 20px; margin-bottom: 0;">Kalp hakkında 24 ilginç bilgi</p>
+<p style="text-align:left; color: white; margin-top: 5; font-size: 18px; margin-bottom:10;">1 kart / 10 dak.</p>
+<p style="text-align:left; color: white; margin-top: 5; font-size: 18px; margin-bottom:10;">Kalp hakkında bilmediğiniz bazı eğlenceli gerçekler...</p>
+<div style="background-color: e94560; height: 30px; line-height: 30px;  color: white; float: left; width: 100%; ">BAŞLA</div>
+</div>
+</a>
+        </div>
+ 
+ 
+    </div>
+	</div>
+
+	<style>
+        #container {
+		padding-left: 5%; 
+		width: 90%;
+            margin-top: 0px;
+			float: left;
+        }
+        .icerik {
+            z-index: 2;
+			color: white;
+			font-style: white;
+         
+        }
+        button {
+		margin-left: 0;
+      font-size: 25px;
+            background: #1a1a2e;
+            font-family: ROBOTO;
+           color: e94560;
+            padding-top; 0;
+			padding-bottom: 0px;
+			padding-left: 0%;
+            
+			border: 2px solid #1a1a2e;
+			
+        }
+        button:hover {
+           
+            color: white;
+        }
+        .aktif {
+            color: white;
+			text-decoration: underline;
+			text-decoration-color: #e94560;
+        }
+        h1 {
+            margin-top: 0px;
+        }
+		.butonyer{
+		margin-left: 0;
+		align: left;
+		}
+		.kard2{
 width: 300px;
 min-height: 50px;
 background-color: ;
 float: left;
-margin-left: 5%;
+margin-left: 0%;
 padding: 10px;
+padding-left: 0px;
+margin-right: 2%;
 padding-top: 10px;
 margin-bottom:2%;
 font-style: 
@@ -281,6 +345,11 @@ text-align:
 center;
 }
 @media screen and (max-width:500px){
+#container {
+width: 96%;
+padding-left:2%;
+padding-right:2%;
+}
 .footerkard{
 width: 98%;
 background-color: #0f3460;
@@ -308,23 +377,32 @@ margin-top: 0;
 width: 100%;
 height: 50%;
 }
+	.butonyer{
+		margin-left: 3%;
+		align: left;
+		}
 }
-</style>
+    </style>
 <div class="footerkard">
 <div id="footer"></div>
-
 </div>
 </div>
+	<script>
 
-
-
-
-
-
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	  <script>
 $(document).ready(function(){
   $("#ustheader").load("https://dolasim.github.io/script/ustheader.txt");
-  $("#footer").load("https://dolasim.github.io/script/footer.txt");
-}); 
-	  </script>
+  $("#footer").load("https://dolasim.github.io/script/footer.txt"); 
+	 
+ 
+            $("#container .icerik").hide(); //Tüm içerikler gizleniyor.
+            $("#container .icerik").first().show(); //İlk içerik görünür yapılıyor.
+            $("#container button").on("click", function() { //Buton seçildiğinde
+                var sno = $(this).index(); //Seçilen sekmenin index numarası lanıyor 
+                $("#container .icerik").hide(); //Tüm içerikler gizleniyor.
+                $("#container .icerik").eq(sno).show(); //Seçilen sekmenin index numarasındaki içerik görünür yapılıyor.
+                $("#container button").removeClass("aktif"); //aktif (seçilen sekme butonuna aktarılmak için) sınıfı birinci sekmeden siliniyor.
+                $(this).addClass("aktif"); //aktif sınıfı seçilen sekmeye ekleniyor.
+            })
+        })
+ 
+    </script>
