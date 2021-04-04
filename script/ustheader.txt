@@ -56,10 +56,10 @@ float: left;
 
 <img src="./arayuzikon/geri.png" height="30" alt="istanbul manzara">
 <div style="font-size: 30px; color: white; font-family: 'roboto', serif; text-decoration-color:white hei">
-<a href="kalpkategori.html"><p id="headerkalp">KALP</p></a>
-<a href="kankategori.html"><p id="headerkan">KAN</p></a>
-<a href="dolasimkategori.html"><p id="headerdolasim">DOLAŞIM</p></a>
-<a href="bagisiklikkategori.html"><p id="headerbagisiklik">BAĞIŞIKLIK</p></a>
+<a href="kalpkategori.html"><p>KALP</p></a>
+<a href="kankategori.html"><p>KaAN</p></a>
+<a href="dolasimkategori.html"><p>DOLAŞIM</p></a>
+<a href="bagisiklikkategori.html"><p>BAĞIŞIKLIK</p></a>
 
 </div>
 </div>
