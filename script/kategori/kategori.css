@@ -204,28 +204,7 @@ background:red;
 overflow: hidden;
 }
 
-.footerkard{
-width: 85%;
-background-color: #0f3460;
-min-height: 10px;
-z-index: 101;
-border-radius: 20px 20px 0px 0px;
-top: 0px;
-margin-bottom: 0%;
-float: left;
-margin-left: 5%;
-margin-right: 0%;
-padding: 1%;
-margin-bottom: 0%;
 
-}
-
-.footertext{
-float:left;
-width: 50%;
-text-align:
-center;
-}
 @media screen and (max-width:500px){
 .ktu1{
 width: 90%;
