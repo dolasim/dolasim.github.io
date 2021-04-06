@@ -325,8 +325,6 @@ float: left;
 </center>
 </div>
 <div class="mobilheader" style="padding-left: 0%;">
-</div>
-<div class="mobilheader" style="padding-left: 0%;">
 <a href="index.html">
 <div style=" padding: 10px; padding-left: 5%; background: ; width: 30px; float: left; height: 30px; z-index: 1001;" class="menuik">
 
@@ -347,10 +345,10 @@ $(document).ready(function(){
 }); 
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 200) {
-        $(".header").addClass("active");
+        $(".mobilheader").addClass("active");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
-       $(".header").removeClass("active");
+       $(".mobilheader").removeClass("active");
     }
 });
 	  </script>
