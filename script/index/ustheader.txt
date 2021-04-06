@@ -83,10 +83,10 @@ $(document).ready(function(){
    $("div.menuik").click(function(){
      $("div.mobilmenu").fadeToggle(500);
    });
+   $("body").scroll(function(300){
+  $("div.mobilheader").css({"background-color":"#16213e"});
+});
 }); 
 
 	  </script>
 
-$("body").scroll(function(300){
-  $("div.mobilheader").css({"background-color":"#16213e"});
-});
