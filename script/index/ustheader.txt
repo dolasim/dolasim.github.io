@@ -27,7 +27,7 @@ position: fixed;
 left:0;
 right:0;
 top: 0;
-background-color: e;
+background-color: ;
 z-index: 1000;
 padding-left: 2%;
 }
@@ -86,4 +86,7 @@ $(document).ready(function(){
 }); 
 
 	  </script>
-#16213
+
+$("body").scroll(function(300){
+  $("div.mobilheader").css({"background-color":"#16213e"});
+});
