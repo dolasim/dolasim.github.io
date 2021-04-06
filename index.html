@@ -279,7 +279,7 @@ background-color: ;
 z-index: 1000;
 padding-left: 2%;
 }
-.mobilheader1{
+.active{
 visibility: visible;
 height: 50px;
 position: fixed;
@@ -345,11 +345,16 @@ $(document).ready(function(){
    $("div.menuik").click(function(){
      $("div.mobilmenu").fadeToggle(500);
    });
-   $("div.header").scroll(function(300){
-  $("div.mobilheader1").show();
-});
+   
 }); 
-
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 200) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+    }
+});
 	  </script>
 <div id="ustheader">
 
