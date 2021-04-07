@@ -90,24 +90,7 @@ Kan hücrelerini tanıyalım.
 <div id="footer"></div>
 </div>
 </div>
-<link href="script/kisalt/css/jquery.readall.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="script/kisalt/js/jquery.readall.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.test').readall({
-                // Default values
-                showheight: 27,                         // height to show
-                showrows: null,                         // rows to show (overrides showheight)
-                animationspeed: 200,                    // speed of transition
-                btnTextShowmore: 'Daha Fazla',           // text shown on button to show more
-                btnTextShowless: 'Daha az',           // text shown on button to show less
-                btnClassShowmore: 'readall-button',     // class(es) on button to show more
-                btnClassShowless: 'readall-button'      // class(es) on button to show less
-            });
-        });
-    </script>
-	<script>
+<script>
 
 $(document).ready(function(){
   $("#ustheader").load("https://dolasim.github.io/script/ustheader.txt");
@@ -126,3 +109,21 @@ $(document).ready(function(){
         })
  
     </script>
+<link href="script/kisalt/css/jquery.readall.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/kisalt/js/jquery.readall.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.test').readall({
+                // Default values
+                showheight: 27,                         // height to show
+                showrows: null,                         // rows to show (overrides showheight)
+                animationspeed: 200,                    // speed of transition
+                btnTextShowmore: 'Daha Fazla',           // text shown on button to show more
+                btnTextShowless: 'Daha az',           // text shown on button to show less
+                btnClassShowmore: 'readall-button',     // class(es) on button to show more
+                btnClassShowless: 'readall-button'      // class(es) on button to show less
+            });
+        });
+    </script>
+	
