@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'averta-semibold';
+    src: url('script/font/averta_semibold-webfont.eot');
+    src: url('script/font/averta_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('script/font/averta_semibold-webfont.woff2') format('woff2'),
+         url('script/font/averta_semibold-webfont.woff') format('woff'),
+         url('script/font/averta_semibold-webfont.svg#averta-semibolduploaded_file') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 body{
-font-family: roboto;
+font-family: averta-semibold;
 link-color: white;
 overflow-x: hidden;
 }
@@ -36,7 +46,7 @@ width: 100px;
 border-radius: 20px;
 line-height:40px;
 text-align: center;
-font-family: roboto;
+font-family: ;
 color: white;
 visibility: hidden;
 
@@ -157,7 +167,7 @@ align-items: center;
 		margin-left: 0;
       font-size: 25px;
             background: #1a1a2e;
-            font-family: ROBOTO;
+            font-family: ;
            color: e94560;
             padding-top; 0;
 			padding-bottom: 0px;
