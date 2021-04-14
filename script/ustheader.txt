@@ -96,9 +96,7 @@ $(document).ready(function(){
    $("div.menuik").click(function(){
      $("div.mobilmenu").fadeToggle(500);
    });
-   $("div.header").scroll(function(300){
-  $("div.mobilheader1").show();
-});
+
 }); 
 
 	  </script>
