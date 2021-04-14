@@ -14,7 +14,6 @@ width: 100px;
 border-radius: 20px;
 line-height:40px;
 text-align: center;
-font-family: roboto;
 font-size: 20px;
 color: white;
 margin-bottom: 2%;
@@ -27,9 +26,21 @@ position: fixed;
 left:0;
 right:0;
 top: 0;
-background-color: #16213e;
+background-color: ;
 z-index: 1000;
 padding-left: 2%;
+}
+.mobilheader1{
+visibility: visible;
+height: 50px;
+position: fixed;
+left:0;
+right:0;
+top: 0;
+background-color:#16213e ;
+z-index: 999;
+padding-left: 2%;
+display: none;
 }
 
 .mobilmenu{
@@ -55,7 +66,7 @@ float: left;
 <div style=" padding: 10px; background: ; min-width: 30px;  height: 100%; " class="menuik">
 
 <img src="./arayuzikon/geri.png" height="30" alt="istanbul manzara">
-<div style="font-size: 30px; color: white; font-family: 'roboto', serif; text-decoration-color:white hei">
+<div style="font-size: 30px; color: white; font-family: ; text-decoration-color:white hei">
 <a href="kalpkategori.html"><p id="headerkalp">KALP</p></a>
 <a href="kankategori.html"><p id="headerkan">KAN</p></a>
 <a href="dolasimkategori.html"><p id="headerdolasim">DOLAŞIM</p></a>
@@ -65,6 +76,8 @@ float: left;
 </div>
 
 </center>
+</div>
+<div class="mobilheader" style="padding-left: 0%;">
 </div>
 <div class="mobilheader" style="padding-left: 0%;">
 <a href="index.html">
@@ -83,6 +96,10 @@ $(document).ready(function(){
    $("div.menuik").click(function(){
      $("div.mobilmenu").fadeToggle(500);
    });
+   $("div.header").scroll(function(300){
+  $("div.mobilheader1").show();
+});
 }); 
 
 	  </script>
+
