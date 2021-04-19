@@ -26,7 +26,7 @@ position: fixed;
 left:0;
 right:0;
 top: 0;
-background-color: #16213e ;
+background-color: ;
 z-index: 1000;
 padding-left: 2%;
 }
@@ -53,6 +53,9 @@ bottom:0 ;
 z-index: 1005;
 visibility: visible;
 display: none;
+}
+.menuik{
+font-size: 30px;
 }
 @media screen and (max-width:500px){
 .mobilheader{
