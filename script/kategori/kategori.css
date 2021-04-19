@@ -20,7 +20,8 @@ text-decoration: none;
 }
 
 p{
-font-color: white
+color: white;
+font-size: 18px;
 }
 body{
 background-color: #1a1a2e;
