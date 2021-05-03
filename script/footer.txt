@@ -32,7 +32,6 @@ align: center;
 }
 }
 </style>
-<im><>
 <div class="footerkard">
 <div style= "width: 100%;">
 <img src="arayuzikon/logo/aydin.png"
