@@ -14,7 +14,10 @@ padding: 1%;
 margin-bottom: 0%;
 line-height: 0px;
 }
-
+.fff{
+width: 20%;
+align: center;
+}
 .footertext{
 float:left;
 width: 50%;
@@ -22,14 +25,23 @@ text-align:
 center;
 margin-bottom: 30px;
 }
+@media screen and (max-width:500px){
+.fff{
+width: 60%;
+align: center;
+}
+}
 </style>
+<im><>
 <div class="footerkard">
+<img src="arayuzikon/logo/aydin.png"
+ class="ffff" alt="istanbul manzara">
 <a href="hakkında.html">
 <p style="" class="footertext">Hakkımızda</p>
 </a>
 <a href="gizlilik.html">
 <p class="footertext">Gizlilik politikası</p>
 </a>
-<p style=" text-align: center; color: white;">©2021 Berkan Aydın. Tüm hakları saklıdır.</p>
+<p style=" text-align: center; color: white;">©2021 Dolsis. Tüm hakları saklıdır.</p>
 
 </div>
