@@ -34,8 +34,10 @@ align: center;
 </style>
 <im><>
 <div class="footerkard">
+<div style= "width: 100%;">
 <img src="arayuzikon/logo/aydin.png"
  class="ffff" alt="istanbul manzara">
+ </div>
 <a href="hakkında.html">
 <p style="" class="footertext">Hakkımızda</p>
 </a>
