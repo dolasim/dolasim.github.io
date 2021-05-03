@@ -17,6 +17,8 @@ line-height: 0px;
 .ffff{
 width: 20%;
 align: center;
+margin-left: 40%;
+margin-right: 40%;
 }
 .footertext{
 float:left;
@@ -28,7 +30,9 @@ margin-bottom: 30px;
 @media screen and (max-width:500px){
 .ffff{
 width: 60%;
-align: center;
+margin-left: 20%;
+margin-right: 20%;
+
 }
 }
 </style>
