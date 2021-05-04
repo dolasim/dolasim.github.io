@@ -47,6 +47,6 @@ margin-right: 20%;
 <a href="gizlilik.html">
 <p class="footertext">Gizlilik politikası</p>
 </a>
-<p style=" text-align: center; color: white;">©2021 Dolsis. Tüm hakları saklıdır.</p>
+<p style=" text-align: center; color: white;">©2021 Dolsis. Tüm hakları saklıdır.<br>Bu web site Berkan Aydın tarafından özel olarak hazırlanmıştır.</p>
 
 </div>
