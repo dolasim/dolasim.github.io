@@ -26,6 +26,7 @@ position: fixed;
 left:0;
 right:0;
 top: 0;
+
 background-color: #16213e;
 z-index: 1000;
 padding-left: 2%;
@@ -37,6 +38,7 @@ position: fixed;
 left:0;
 right:0;
 top: 0;
+  backdrop-filter: blur(10px);
 background-color:#16213e ;
 z-index: 999;
 padding-left: 2%;
